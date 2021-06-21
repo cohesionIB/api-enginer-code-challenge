@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>03a73d05-8990-43e7-8f02-50b029f8b480</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lot.O.Invitation.Codes.Services\Lot.O.Invitation.Codes.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
