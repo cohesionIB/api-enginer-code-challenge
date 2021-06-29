@@ -23,7 +23,6 @@ namespace CohesionIB.ApiEngineer.CodeChallenge.Services
                 if (entropyService.Count() > 0)
                 {
                     var bytes = entropyService.Take(8).ToList();
-                    bytes.Add(0);
                     return BitConverter.ToUInt64(bytes.ToArray());
                 }
                 
